@@ -2,7 +2,9 @@
 const {Translate} = require('@google-cloud/translate').v2;
 require('dotenv').config();
 
-const CREDENTIALS = require('../../token.json');
+const CREDENTIALS = JSON.parse(
+    process.env.GOOGLE_CREDS
+  );
 const target = 'de';
 
 const translate = new Translate({
