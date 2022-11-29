@@ -127,7 +127,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -173,6 +173,60 @@ textarea {
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgb(255, 79, 18);
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+}
+.generate-ToC-button {
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(18, 105, 255);
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+}
+.generate-chained-button {
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(9, 95, 43);
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+}
+.translate-button {
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(211, 24, 24);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -318,6 +372,7 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+    height: 2000px; 
 }
 
 .output-content p {

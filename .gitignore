@@ -36,3 +36,5 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+civil-victory-370111-faa7930b757f.json
+token.json
